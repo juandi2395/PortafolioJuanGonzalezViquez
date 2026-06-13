@@ -11,8 +11,8 @@ body{
     justify-content:center;
     align-items:center;
 
-    background:#0F172A;
-    color:white;
+    background:#F5F7FA;
+    color:#2D3748;
     text-align:center;
 }
 
@@ -27,25 +27,28 @@ body{
     margin:0 auto 25px;
 
     border-radius:50%;
-    background:#38BDF8;
+    background:#0056B3;
 
-    color:#0F172A;
+    color:#FFFFFF;
     font-size:2rem;
     font-weight:bold;
 
     display:flex;
     justify-content:center;
     align-items:center;
+
+    box-shadow:0 8px 20px rgba(0,86,179,0.2);
 }
 
 h1{
     font-size:3rem;
     margin-bottom:15px;
+    color:#003B80;
 }
 
 p{
     font-size:1.1rem;
-    color:#CBD5E1;
+    color:#2D3748;
     margin-bottom:30px;
     line-height:1.6;
 }
@@ -53,14 +56,16 @@ p{
 #clock{
     font-size:1.2rem;
     font-weight:bold;
-    color:#38BDF8;
+    color:#FF7A00;
     margin-bottom:25px;
 }
 
 .status{
     display:inline-block;
-    background:#1E293B;
+    background:#003B80;
+    color:#FFFFFF;
     padding:12px 20px;
     border-radius:30px;
-    border:1px solid #38BDF8;
+    border:2px solid #1DA1F2;
+    font-weight:600;
 }
